@@ -1,32 +1,70 @@
-# 机器人项目展示
-本知识库旨在通过汇编我在该领域最杰出的一些项目，来凸显我在机器人技术领域的精湛技艺和专业技能。
-以下项目代表了我的个人工作，其中一些项目也涉及合作。如需详细了解个人贡献，请参阅相应的知识库。
-这些项目让我得以深入研究机器人技术的各个方面，涵盖纯控制理论和概率算法的应用。
+# Hi there, I'm 孙浩翔 👋
+
+> **M.S. in Mechanical Engineering @ 浙江大学 | B.S. in Physics** > 🤖 **Focus:** Embodied AI, Sim-to-Real, Robot Learning & Motion Planning.
+
+欢迎来到我的机器人项目集。这里汇集了我对 **具身智能（Embodied AI）** 和 **经典机器人控制** 的探索。我致力于结合**物理学的第一性原理**直觉与**深度强化学习**的范式，解决机器人从仿真到现实（Sim2Real）的落地难题。
 
 ---
 
-# 理论
+## 🛠️ Tech Stack
 
-# 实践
-
-## XLerobot — MuJoCo 上的 Sim-to-Real 强化学习（PPO）工程化仓库
-
-**仓库**：`<GitHub 链接 替换这里>`
-**年份**：2025
-**编程语言**：Python (MuJoCo / ROS2 可选集成)
-**其他资源**：报告（`report.pdf`）、幻灯片（`Slides`）、演示视频（`Video`）
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-EE4C2C?logo=pytorch)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?logo=ros)
+![MuJoCo](https://img.shields.io/badge/Simulator-MuJoCo-orange)
+![Isaac Gym](https://img.shields.io/badge/Simulator-Isaac%20Gym-green)
 
 ---
 
-## 项目概述（Description）
+## 🚀 Featured Projects | 精选项目
 
-本项目将 **XLerobot** 的控制/任务在 **MuJoCo** 仿真环境中完整工程化：
+### 1. XLerobot: MuJoCo 仿真与 Sim-to-Real 全栈强化学习框架
+**关键词**: `Reinforcement Learning (PPO)` `Sim2Real` `MuJoCo` `Domain Randomization` `Engineering`
 
-* 把环境封装为可复现的训练/评估流水线；
-* 使用 **PPO**（基于 `stable-baselines3` / `torch`）训练策略；
-* 在仿真中使用 **domain / dynamics randomization** 提高鲁棒性；
-* 提供一键运行脚本（`run.sh`）、`Dockerfile`、日志与 Demo 视频，便于面试/复现；
-* 包含 **sim→real** 的微调/部署说明与实机对比结果。
+> **项目概述**:  
+> 这是一个面向工程落地的具身智能项目。针对 **XLerobot** 双臂机器人，构建了从 MuJoCo 仿真训练到真机部署的完整闭环。重点解决了仿真与现实的动力学鸿沟（Dynamics Gap），并实现了训练流水线的标准化。
 
-**目标**：给出一个从训练到部署、可复现、面向工程化的 Sim-to-Real 流程示例，便于在求职面试中展示能力与工程素养。
+<div align="center">
+  <img src="https://via.placeholder.com/800x400?text=Place+Your+Sim2Real+Demo+GIF+Here" alt="Sim2Real Demo" width="100%">
+</div>
 
+**✨ 核心工作 (Key Contributions):**
+* **工程化流水线**: 将环境封装为 Gym 接口，构建了可复现的 Training/Evaluation Pipeline。
+* **策略训练**: 基于 `stable-baselines3` 和 `PyTorch` 实现 **PPO** 算法，完成复杂操作任务的策略学习。
+* **Sim-to-Real**: 在仿真中引入 **Domain Randomization** (摩擦力、质量、延迟等) 以提高策略的鲁棒性，成功迁移至真机。
+* **DevOps**: 提供 `Dockerfile` 和一键运行脚本 (`run.sh`)，确保开发环境的一致性。
+
+🔗 **资源**: [代码仓库](#) | [技术报告 (PDF)](#) | [演示视频](#)
+
+---
+
+### 2. Autonomous Navigation: A* 路径规划与最小加加速度轨迹优化
+**关键词**: `Motion Planning` `A* Algorithm` `Trajectory Smoothing` `Minimum Jerk` `ROS`
+
+> **项目概述**:  
+> 基于 ROS 的移动机器人导航系统。在经典 A* 搜索的基础上，结合物理约束（动力学）进行了后端轨迹优化，实现了在复杂障碍物环境下的平滑避障。
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400?text=Place+Your+A*+Path+Planning+GIF+Here" alt="Path Planning Demo" width="100%">
+</div>
+
+**✨ 核心功能 (Key Features):**
+* **🎯 前端搜索**: 实现 **A*** 算法，并通过启发式函数优化（Heuristic Optimization）提升在随机障碍物环境下的搜索效率。
+* **🌊 后端平滑**: 采用 **5次多项式 (Quintic Polynomial)** 进行轨迹插值，解析求解 **Minimum Jerk**（最小加加速度）轨迹，确保速度与加速度连续。
+* **📊 可视化交互**: 集成 RViz 实时可视化，动态展示搜索过程（Open/Closed Set）与优化后的平滑轨迹。
+
+🔗 **资源**: [代码仓库](#) | [演示视频](#)
+
+---
+
+## 📝 Other Explorations
+
+* **Diffusion Policy 复现**: 基于 `Diffusers` 复现 Vision-Language-Action 控制策略。[链接](#)
+* **LeetCode 算法笔记**: 记录数据结构与算法的刷题心得。[链接](#)
+
+---
+
+<div align="center">
+  <p>Looking for <b>Embodied AI Algorithm Intern</b> opportunities.</p>
+  <p>📫 Contact: <a href="mailto:your_email@example.com">your_email@example.com</a></p>
+</div>
