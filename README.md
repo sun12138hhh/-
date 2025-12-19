@@ -44,9 +44,11 @@
 > **项目概述**:  
 > 基于 ROS 的移动机器人导航系统。在经典 A* 搜索的基础上，结合物理约束（动力学）进行了后端轨迹优化，实现了在复杂障碍物环境下的平滑避障。
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Place+Your+A*+Path+Planning+GIF+Here" alt="Path Planning Demo" width="100%">
-</div>
+
+
+https://github.com/user-attachments/assets/9e20aeb9-ac9a-467e-a40d-be3237b12ef5
+
+
 
 **✨ 核心功能 (Key Features):**
 * **🎯 前端搜索**: 实现 **A*** 算法，并通过启发式函数优化（Heuristic Optimization）提升在随机障碍物环境下的搜索效率。
