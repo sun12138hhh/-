@@ -24,9 +24,11 @@
 > **项目概述**:  
 > 这是一个面向工程落地的具身智能项目。针对 **XLerobot** 双臂机器人，构建了从 MuJoCo 仿真训练到真机部署的完整闭环。重点解决了仿真与现实的动力学鸿沟（Dynamics Gap），并实现了训练流水线的标准化。
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400?text=Place+Your+Sim2Real+Demo+GIF+Here" alt="Sim2Real Demo" width="100%">
-</div>
+
+
+https://github.com/user-attachments/assets/04f9cae8-80fa-438e-a01e-f52a30c4c278
+
+
 
 **✨ 核心工作 (Key Contributions):**
 * **工程化流水线**: 将环境封装为 Gym 接口，构建了可复现的 Training/Evaluation Pipeline。
