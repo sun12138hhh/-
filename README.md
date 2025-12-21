@@ -19,9 +19,9 @@
 
 
 
-## 🚀 Featured Projects | 精选项目
 
-### 📚 Theoretical Algorithms | 理论与算法验证
+
+### Theoretical Algorithms | 理论验证
 > *关注经典算法的数学原理复现与特定场景下的优化。*
 
 #### 1. Autonomous Navigation: A* 路径规划与最小加加速度轨迹优化
@@ -64,11 +64,11 @@ https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 🔗 **资源**: [代码仓库](#) | [技术文档](#)
 
 ---
-
+## 🚀 Featured Projects | 精选项目
 ### 🤖 Embodied AI Practice | 具身智能工程实践
 > *聚焦 SOTA 具身策略（ACT, Diffusion Policy）的复现与 Sim2Real 落地。*
 
-#### 3. LeRobot Implementation: ACT 与 Diffusion Policy 的实机部署
+#### 1. LeRobot Implementation: ACT 与 Diffusion Policy 的实机部署
 **关键词**: `Imitation Learning` `ACT` `Diffusion Policy` `HuggingFace LeRobot` `Sim2Real`
 
 > **项目概述**:  
@@ -85,7 +85,7 @@ https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 
 ---
 
-#### 4. Isaac Sim Teleoperation: 高保真仿真与遥操作数据管线
+#### 2. Isaac Sim Teleoperation: 高保真仿真与遥操作数据管线
 **关键词**: `NVIDIA Isaac Sim` `Teleoperation` `Data Collection` `Digital Twin` `USD`
 
 > **项目概述**:  
@@ -98,14 +98,7 @@ https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 * **遥操作映射**: 实现 VR 手柄/SpaceMouse 到机械臂末端执行器（End-effector）的 IK 逆运动学映射，实现流畅的示教数据录制。
 * **Sim-to-Sim 验证**: 在仿真环境中直接验证 LeRobot 训练出的策略模型，大幅降低真机试错成本。
 
-🔗 **资源**: [代码仓库](#) | [演示视频](#)
 
----
-
-## 📝 Other Explorations
-
-* **LeetCode 算法笔记**: 记录数据结构与算法的刷题心得。[链接](#)
-* **CS 基础**: 操作系统与计算机网络学习记录。[链接](#)
 
 ---
 
