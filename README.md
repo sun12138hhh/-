@@ -65,9 +65,12 @@ https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 
 ---
 ## 🚀 Featured Projects | 精选项目
+
+
+
 ## 🤖 Embodied AI Practice | 具身智能工程实践
 > *聚焦 SOTA 具身策略（ACT, Diffusion Policy）的复现与 Sim2Real 落地。*
-
+![Gemini_Generated_Image_hu7sgghu7sgghu7s](https://github.com/user-attachments/assets/984528c9-04f1-45da-83f6-b2863b16670e)
 #### 1. LeRobot Implementation: ACT 与 Diffusion Policy 的实机部署
 **关键词**: `Imitation Learning` `ACT` `Diffusion Policy` `HuggingFace LeRobot` `Sim2Real`
 
