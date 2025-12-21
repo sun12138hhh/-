@@ -128,14 +128,7 @@ https://github.com/user-attachments/assets/beb5fbb2-7e38-44a0-831d-e9566df54222
 
 
 
-
-
-https://github.com/user-attachments/assets/c48f6df3-eea6-4828-8dd4-2676800f62e5
-
-
-
-
-
+https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 
 
 
@@ -159,7 +152,7 @@ https://github.com/user-attachments/assets/c48f6df3-eea6-4828-8dd4-2676800f62e5
 > **项目概述**:  
 > 基于 HuggingFace **LeRobot** 框架，在双臂机器人平台上复现并部署了 **ACT (Action Chunking Transformer)** 与 **Diffusion Policy** 算法。打通了从数据采集、策略训练到真机推理的全栈流程。
 
-[这里放真机抓取的 GIF/视频]
+[[这里放真机抓取的 GIF/视频]](https://github.com/user-attachments/assets/beb5fbb2-7e38-44a0-831d-e9566df54222)
 
 **✨ 核心工作 (Key Contributions):**
 * **策略复现**: 深入研究 Transformer 动作分块预测与去噪扩散过程，成功在低数据量下训练出高鲁棒性策略。
@@ -176,7 +169,7 @@ https://github.com/user-attachments/assets/c48f6df3-eea6-4828-8dd4-2676800f62e5
 > **项目概述**:  
 > 构建基于 **NVIDIA Isaac Sim** 的高保真仿真环境，用于具身智能策略的低成本训练与验证。搭建了基于 VR/手柄 的遥操作（Teleoperation）数据采集管线，为 LeRobot 提供高质量合成数据。
 
-[这里放 Isaac Sim 里的仿真录屏 GIF]
+[[这里放 Isaac Sim 里的仿真录屏 GIF]](https://github.com/user-attachments/assets/04f9cae8-80fa-438e-a01e-f52a30c4c278)
 
 **✨ 核心工作 (Key Contributions):**
 * **数字孪生构建**: 导入机器人的 URDF/MJCF 模型，配置物理属性（碰撞体、关节阻尼）以对齐真实物理世界。
