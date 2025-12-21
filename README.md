@@ -125,7 +125,10 @@ https://github.com/user-attachments/assets/9e20aeb9-ac9a-467e-a40d-be3237b12ef5
 > **项目概述**:  
 > 针对工业场景下的 PCB 缺陷检测，对比实现了两套 **Faster R-CNN** 方案：基于 torchvision 的工程化实现与基于底层网络构建的完整复现。项目集成 MLOps 工具流与桌面端部署应用。
 
-![PCB Detection Demo](https://img.shields.io/badge/Demo-GUI-blue) *(建议此处放一张 GUI 检测结果的截图)*
+
+
+https://github.com/user-attachments/assets/42b8d4cf-3f77-40a1-8128-08f4421a53b0
+
 
 **✨ 核心功能 (Key Features):**
 * **🔍 双重架构对比**: 
