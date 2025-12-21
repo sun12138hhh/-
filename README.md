@@ -21,7 +21,7 @@
 
 
 
-### Theoretical Algorithms | 理论验证
+## Theoretical Algorithms | 理论验证
 > *关注经典算法的数学原理复现与特定场景下的优化。*
 
 #### 1. Autonomous Navigation: A* 路径规划与最小加加速度轨迹优化
@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/886da69d-a7b3-4c36-8a89-d5e3f94cbe37
 
 ---
 ## 🚀 Featured Projects | 精选项目
-### 🤖 Embodied AI Practice | 具身智能工程实践
+## 🤖 Embodied AI Practice | 具身智能工程实践
 > *聚焦 SOTA 具身策略（ACT, Diffusion Policy）的复现与 Sim2Real 落地。*
 
 #### 1. LeRobot Implementation: ACT 与 Diffusion Policy 的实机部署
