@@ -127,9 +127,11 @@ https://github.com/user-attachments/assets/9e20aeb9-ac9a-467e-a40d-be3237b12ef5
 
 
 
-[这里放你的 A.mp4 或者转成的 GIF]
 
-https://github.com/user-attachments/assets/0d4f0bbd-5bc6-49c7-aae0-2c9803136e6b
+
+
+https://github.com/user-attachments/assets/c48f6df3-eea6-4828-8dd4-2676800f62e5
+
 
 
 
